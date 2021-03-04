@@ -1,0 +1,148 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+body{
+	background-color: #373b42;
+	color: white;
+	text-align: center;
+}
+
+header{
+	background-color: #1f2226;
+	padding: 5px;
+}
+
+header h1{
+	float: left;
+	width: 10%;
+}
+
+section{
+	padding: 1%;
+	width: 75%;
+	margin: 1% auto;
+}
+section p{
+	padding-bottom: 10px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+
+footer span{
+	background-color: #1f2226;
+	padding-top: 5px;
+	display: block;
+}
+
+.clearfix{
+	clear: both;
+	overflow: auto;
+}
+
+/*Messages*/
+#message-body{	
+    display: block;
+	height: 600px;
+	clear: both;
+	overflow: auto;
+}
+.message-left{
+	width: 28%;
+	float: left;
+	overflow-y: scroll hidden; 
+}
+.message-right{
+	width: 70%;
+	float: right;
+	overflow-y: scroll hidden; 
+
+}
+
+
+
+.message-left ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.message-left ul a{
+    text-decoration: none;
+}
+.message-left ul a li{
+	color: white;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+}
+.message-left ul a li:hover{
+    background: #EBEDF5;
+}
+.message-left ul a li.active{
+    background: #6B83B3;
+}
+.message-right .display-message{
+    display: block;
+    height: 80%;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    overflow-y:scroll;
+}
+.message-right .send-message{
+    height: 20%;
+    background: #eee;
+    padding: 10px;
+}
+.display-message .message{
+    min-height: 60px;
+    padding: 10px;
+}
+
+.message .text-con{
+    width: 48%;
+    height: inherit;
+	padding: 5px 15px 2px 15px;
+	border-radius: 20px;
+}
+#message{
+	margin-top: 10px;
+	width: 75%;
+	height: 10%;
+}
+.message .send{
+	background-color: #778499; 	
+	float: left;
+}
+.message .received{
+	background-color: #777b82;
+	float: right;
+}
+
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top:1px solid #ccc;
+}
